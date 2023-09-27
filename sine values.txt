@@ -1,0 +1,125 @@
+if (precise_angle=x"00" or precise_angle=x"00") then
+        sin_val <= "000000";
+        cos_val <= "100000";
+        disp_angle <= x"00";
+elsif (precise_angle=x"03" or precise_angle=x"FFFFFFFD") then
+        sin_val <= "000001";
+        cos_val <= "011111";
+        disp_angle <= x"03";
+elsif (precise_angle=x"06" or precise_angle=x"FFFFFFFA") then
+        sin_val <= "000011";
+        cos_val <= "011111";
+        disp_angle <= x"06";
+elsif (precise_angle=x"09" or precise_angle=x"FFFFFFF7") then
+        sin_val <= "000101";
+        cos_val <= "011111";
+        disp_angle <= x"09";
+elsif (precise_angle=x"0C" or precise_angle=x"FFFFFFF4") then
+        sin_val <= "000110";
+        cos_val <= "011111";
+        disp_angle <= x"12";
+elsif (precise_angle=x"0F" or precise_angle=x"FFFFFFF1") then
+        sin_val <= "001000";
+        cos_val <= "011110";
+        disp_angle <= x"15";
+elsif (precise_angle=x"12" or precise_angle=x"FFFFFFEE") then
+        sin_val <= "001001";
+        cos_val <= "011110";
+        disp_angle <= x"18";
+elsif (precise_angle=x"15" or precise_angle=x"FFFFFFEB") then
+        sin_val <= "001011";
+        cos_val <= "011101";
+        disp_angle <= x"21";
+elsif (precise_angle=x"18" or precise_angle=x"FFFFFFE8") then
+        sin_val <= "001101";
+        cos_val <= "011101";
+        disp_angle <= x"24";
+elsif (precise_angle=x"1B" or precise_angle=x"FFFFFFE5") then
+        sin_val <= "001110";
+        cos_val <= "011100";
+        disp_angle <= x"27";
+elsif (precise_angle=x"1E" or precise_angle=x"FFFFFFE2") then
+        sin_val <= "001111";
+        cos_val <= "011011";
+        disp_angle <= x"30";
+elsif (precise_angle=x"21" or precise_angle=x"FFFFFFDF") then
+        sin_val <= "010001";
+        cos_val <= "011010";
+        disp_angle <= x"33";
+elsif (precise_angle=x"24" or precise_angle=x"FFFFFFDC") then
+        sin_val <= "010010";
+        cos_val <= "011001";
+        disp_angle <= x"36";
+elsif (precise_angle=x"27" or precise_angle=x"FFFFFFD9") then
+        sin_val <= "010100";
+        cos_val <= "011000";
+        disp_angle <= x"39";
+elsif (precise_angle=x"2A" or precise_angle=x"FFFFFFD6") then
+        sin_val <= "010101";
+        cos_val <= "010111";
+        disp_angle <= x"42";
+elsif (precise_angle=x"2D" or precise_angle=x"FFFFFFD3") then
+        sin_val <= "010110";
+        cos_val <= "010110";
+        disp_angle <= x"45";
+elsif (precise_angle=x"30" or precise_angle=x"FFFFFFD0") then
+        sin_val <= "010111";
+        cos_val <= "010101";
+        disp_angle <= x"48";
+elsif (precise_angle=x"33" or precise_angle=x"FFFFFFCD") then
+        sin_val <= "011000";
+        cos_val <= "010100";
+        disp_angle <= x"51";
+elsif (precise_angle=x"36" or precise_angle=x"FFFFFFCA") then
+        sin_val <= "011001";
+        cos_val <= "010010";
+        disp_angle <= x"54";
+elsif (precise_angle=x"39" or precise_angle=x"FFFFFFC7") then
+        sin_val <= "011010";
+        cos_val <= "010001";
+        disp_angle <= x"57";
+elsif (precise_angle=x"3C" or precise_angle=x"FFFFFFC4") then
+        sin_val <= "011011";
+        cos_val <= "010000";
+        disp_angle <= x"60";
+elsif (precise_angle=x"3F" or precise_angle=x"FFFFFFC1") then
+        sin_val <= "011100";
+        cos_val <= "001110";
+        disp_angle <= x"63";
+elsif (precise_angle=x"42" or precise_angle=x"FFFFFFBE") then
+        sin_val <= "011101";
+        cos_val <= "001101";
+        disp_angle <= x"66";
+elsif (precise_angle=x"45" or precise_angle=x"FFFFFFBB") then
+        sin_val <= "011101";
+        cos_val <= "001011";
+        disp_angle <= x"69";
+elsif (precise_angle=x"48" or precise_angle=x"FFFFFFB8") then
+        sin_val <= "011110";
+        cos_val <= "001001";
+        disp_angle <= x"72";
+elsif (precise_angle=x"4B" or precise_angle=x"FFFFFFB5") then
+        sin_val <= "011110";
+        cos_val <= "001000";
+        disp_angle <= x"75";
+elsif (precise_angle=x"4E" or precise_angle=x"FFFFFFB2") then
+        sin_val <= "011111";
+        cos_val <= "000110";
+        disp_angle <= x"78";
+elsif (precise_angle=x"51" or precise_angle=x"FFFFFFAF") then
+        sin_val <= "011111";
+        cos_val <= "000101";
+        disp_angle <= x"81";
+elsif (precise_angle=x"54" or precise_angle=x"FFFFFFAC") then
+        sin_val <= "011111";
+        cos_val <= "000011";
+        disp_angle <= x"84";
+elsif (precise_angle=x"57" or precise_angle=x"FFFFFFA9") then
+        sin_val <= "011111";
+        cos_val <= "000001";
+        disp_angle <= x"87";
+elsif (precise_angle=x"5A" or precise_angle=x"FFFFFFA6") then
+        sin_val <= "100000";
+        cos_val <= "000000";
+        disp_angle <= x"90";
+end if;
